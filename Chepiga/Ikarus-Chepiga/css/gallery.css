@@ -1,0 +1,12 @@
+.carousel { position:relative; height:auto !important; background:url(../images/loader.gif) center center no-repeat; }
+.carousel .next { width:56px; height:36px; position:absolute; bottom:45%; right:6%; z-index:9999; cursor:pointer;}
+.carousel .prev { width:56px; height:36px; position:absolute; bottom:45%; left:6%; z-index:9999; cursor:pointer; }
+.carousel .prev { background:url(../images/prev.png) 0 0 no-repeat;  }
+.carousel .next { background:url(../images/next.png) 0 0 no-repeat; }
+.carousel li { display:none; }
+.carousel li img { width:110%; height:auto; }
+.figure {
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+}
