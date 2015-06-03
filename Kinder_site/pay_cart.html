@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kinder</title>
+    <link media="all" rel="stylesheet" href="css/all.css">
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
+    <link href="css/jquery.rating.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.6.2.min.js"><\/script>');
+    </script>
+    <script type="text/javascript" src="js/jquery.rating-2.0.min.js"></script>
+    <script type="text/javascript" src="js/kinder.rating.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<!-- Header begining-->
+    <div id="header">
+    	<div class="top">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="bonus">
+				<ul>
+					<li>Здравствуйте,<a href="">Иван Иванович</a></li>
+					<li>У Вас<a href=""><i>18 киндер-бонусов</i></a></li>
+					<li><a href="">Выйти</a></li>
+				</ul>
+			</div>
+			<div class="bonus-place">
+				<ul>
+					<li>Ваш город<a href=""><i>Ростов-на-Дону</i></a></li>
+					<li>Пункты выдачи<a href=""><img src="images/5.png" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="contact">
+				<span>8 (800) 333 5461</span>
+				<a href="">(звонок бесплатный)</a>
+				<p>8 (863) 2949872</p>
+			</div>
+        </div>
+    </div>
+    <!-- Header ending-->
+    <!-- Main begining-->
+    <div id="main">
+    	<div class="main-wrap">
+        	<!-- Sidebar begining-->
+            <aside id="sidebar">
+                <div class="sidebar-menu">
+                    <p class="catalog"> Каталог товаров</p>
+                    <ul>
+                        <li class="active">
+                            	<a href="#">Игрушки, игры</a>
+                                <ul>
+									<li><a href="bathroom.html">Игрушки для ванной</a></li>
+									<li><a href="#">Игрушки в кроватку, коляску, авто</a></li>
+									<li><a href="#">Погремушки, игрушки на запястье</a></li>
+									<li><a href="#">Развивающие, игровые коврики</a></li>
+								</ul>		
+                        <li><a href="chair.html">Шезлонги, качели, баунсеры, качалки</a></li>
+                        <li><a href="#">Батарейки</a></li>
+                        <li><a href="#">Детские книги</a></li>
+                        <li><a href="#">Детское питание</a></li>
+                        <li><a href="#">Все для кормления</a></li>
+                        <li><a href="#">Одежда для детей</a></li>
+                        <li><a href="#">Гигиена и уход</a></li>
+                        <li><a href="#">Мебель для детей</a></li>
+                        <li><a href="#">Постельное белье, одеяла и наборы в кроватку</a></li>
+                        <li><a href="#">Детский Транспорт</a></li>
+                        <li><a href="#">Автокресла</a></li>
+                        <li><a href="#">Детская безопасность, защита</a></li>
+                        <li><a href="#">Фоторамки, Фотоальбомы, Слепки ручек и ножек</a></li>
+                        <li><a href="#">Товары для мам</a></li>
+                        <li><a href="#">Товары для дома</a></li>
+                        <li><a href="#">Сумки, рюкзаки, пеналы</a></li>
+                        <li><a href="#">Детские зонты</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <!-- Sidebar ending-->
+            <!-- Content begining-->
+            <div id="content">
+                <div class="search">
+                    <input type="text" placeholder="Поиск по товарам" >
+                </div>
+                <div class="payment">
+                    <ul class="bread-crumbs">
+                            <li><p>корзина</p></li>
+                            <li><img src="images/line.png" alt="line"/></li>
+                            <li><p>данные доставки</p></li>
+                            <li><img src="images/line.png" alt="line"/></li>
+                            <li><a id="select" href="shopcartDetail.html">оплата</a></li>
+                    </ul>
+                    <p>Сумма вашей покупки <em>12 148</em> руб.</p>
+                    <hr/>
+                    <div class="payment-method">
+                        <table>
+                            <thead>
+                            <tr>
+                                <td colspan="2"><p class="pay-cart">Способ оплаты</p></td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="radio"><input type="radio" name="payment-type" value="cash"></td>
+                                <td class="payment-type"><h4>Наличный расчет</h4>
+                                <p>Оплата производиться за наличный расчет в день доставки, путем передачи денежных средств курьеру согласно накладной</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="radio"><input type="radio" name="payment-type" value="card"></td>
+                                <td class="payment-type"><h4>VISA | MasterCardт</h4>
+                                <p>Оплата пластиковой картой через защищенное SSL соединение</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="radio"><input type="radio" name="payment-type" value="cash"></td>
+                                <td class="payment-type"><h4>Наличный расчет</h4>
+                                    <p>Оплата производиться за наличный расчет в день доставки, путем передачи денежных средств курьеру согласно накладной</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="radio"><input type="radio" name="payment-type" value="card"></td>
+                                <td class="payment-type"><h4>VISA | MasterCardт</h4>
+                                    <p>Оплата пластиковой картой через защищенное SSL соединение</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="radio"><input type="radio" name="payment-type" value="cash"></td>
+                                <td class="payment-type"><h4>Наличный расчет</h4>
+                                    <p>Оплата производиться за наличный расчет в день доставки, путем передачи денежных средств курьеру согласно накладной</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="radio"><input type="radio" name="payment-type" value="card"></td>
+                                <td class="payment-type"><h4>VISA | MasterCardт</h4>
+                                    <p>Оплата пластиковой картой через защищенное SSL соединение</p>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="customer-data">
+                            <p class="pay-cart">Данные получателя</p>
+                            <div class="data">
+                                <p><em>Имя:</em> Михаил Сильный</p>
+                                <p><em>Адрес доставки:</em> г. Ростов-на-Дону, ул. Ленина, д. 15  344030</p>
+                                <p><em>E-mail:</em> mihastrong@gmail.com</p>
+                                <p><em>Тел.:</em> +7 925 654 55 66</p>
+                                <p><em>Комментарий:</em> Синюю, а не белую!</p>
+                                <a href="#">Редактировать</a>
+                            </div>
+                            <a href="#" class="checkout">Оформить заказ</a>
+                        </div>
+                    </div>
+               	</div>
+            </div>
+            <!-- Content ending-->
+        </div>
+    </div>
+    <!-- Main ending-->
+    <!-- Fixed-panel begining-->
+    <div class="fixed-panel">
+        <a href="#" class="feedback">Обратная связь</a>
+        <div class="panel-buy">
+            <div class="compare">
+                <p>Сравнить <span><a href="#">0</a></span></p>
+            </div>
+            <div class="panel-basket">
+                <a href="#" class="quantity">1</a>
+                <p class="price">94000 р.</p>
+                <a href="#" class="checkout">Оформить заказ</a>
+            </div>
+        </div>
+    </div>
+    <!-- Fixed-panel ending-->
+    <!-- Footer begining-->
+    <div id="footer">
+        <div class="row-01">
+            <div class="about">
+                <h3>о магазине</h3>
+                <p>Покупая у нас, вы оберегаете вашего малыша от некачественного товара и дешевых подделок. Все наши товары сертифицированы и прошли контроль качества.</p>
+                <p>Интернет-магазин KINDER61.RU Это надежно, комфортно и очень выгодно.</p>
+            </div>
+            <div class="pay-info">
+                <h3>принимаем к оплате</h3>
+                <ul class="payment-list">
+                    <li class="visa">visa</li>
+                    <li class="visa-electron">visa-electron</li>
+                    <li class="mastercard">mastercard</li>
+                    <li class="maestro">maestro</li>
+                </ul>
+                <div class="vk-widget">
+                    <!-- VK Widget -->
+                    <iframe name="fXDe7af1" frameborder="0" src="https://vk.com/widget_community.php?app=0&amp;width=240px&amp;_ver=1&amp;gid=34210285&amp;mode=1&amp;color1=FFFFFF&amp;color2=2B587A&amp;color3=cccccc&amp;class_name=&amp;height=400&amp;url=https%3A%2F%2Fvk.com%2Fdev%2FCommunity%3Fheight%3D400%26link%3Dhttps%253A%252F%252Fvk.com%252Fkinder61%26mode%3D1%26oid%3D-34210285%26wide%3D%26width%3D240&amp;14d553a2b52" width="260" height="200" scrolling="no" id="vkwidget34" style="overflow: hidden; height: 150px;"></iframe>
+                </div>
+            </div>
+            <div class="info-menu">
+                <h3>Информация</h3>
+                <ul class="info-list">
+                    <li><a href="dostavka">Доставка</a></li>
+                    <li><a href="oplata">Оплата</a></li>
+                    <li><a href="kak_oformit_zakaz">Как оформить заказ</a></li>
+                    <li><a href="informatsiya">Информация</a></li>
+                    <li><a href="contact">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row-02">
+            <div class="copyright">
+                <p>© 2012 - 2014 Kinder61.ru - Интернет магазин детских товаров</p>
+                <p>Юридический адрес: г. Ростов-на-Дону, ул. 40 лет победы 63/10</p>
+            </div>
+            <div class="developers">
+                <p><a href="http://wizardstyle.ru/">Разработка сайта</a> — Интернет агентство «WizardStyle»</p>
+                <p><a href="#">Прием платежей</a> —  PAYSTO</p>
+            </div>
+            <div class="clear-fix"></div>
+        </div>
+    </div>
+     <!-- Footer ending-->
+</div>
+</body>
+</html>

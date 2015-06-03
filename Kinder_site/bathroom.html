@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bathroom</title>
+    <link media="all" rel="stylesheet" href="css/all.css">
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
+    <link href="css/jquery.rating.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.6.2.min.js"><\/script>');
+    </script>
+    <script type="text/javascript" src="js/jquery.rating-2.0.min.js"></script>
+    <script type="text/javascript" src="js/kinder.rating.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+    	<div class="top">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="bonus">
+				<ul>
+					<li>Здравствуйте,<a href="">Иван Иванович</a></li>
+					<li>У Вас<a href=""><i>18 киндер-бонусов</i></a></li>
+					<li><a href="">Выйти</a></li>
+				</ul>
+			</div>
+			<div class="bonus-place">
+				<ul>
+					<li>Ваш город<a href=""><i>Ростов-на-Дону</i></a></li>
+					<li>Пункты выдачи<a href=""><img src="images/5.png" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="contact">
+				<span>8 (800) 333 5461</span>
+				<a href="">(звонок бесплатный)</a>
+				<p>8 (863) 2949872</p>
+			</div>
+        </div>
+    </div>
+    <div id="main">
+    	<div class="main-wrap">
+            <aside id="sidebar">
+                <div class="sidebar-menu short">
+                        <p class="catalog"> Каталог товаров</p>
+                        <ul>
+                            <li class="active">
+                            	<a href="#">Игрушки, игры</a>
+                                <ul>
+									<li><a href="bathroom.html">Игрушки для ванной</a></li>
+									<li><a href="#">Игрушки в кроватку, коляску, авто</a></li>
+									<li><a href="#">Погремушки, игрушки на запястье</a></li>
+									<li><a href="#">Развивающие, игровые коврики</a></li>
+								</ul>				
+                            </li>
+                            <li><a href="chair.html">Шезлонги, качели, баунсеры, качалки</a></li>
+                            <li><a href="#">Батарейки</a></li>
+                            <li><a href="#">Детские книги</a></li>
+                            <li  class="hide"><a href="#">Детское питание</a></li>
+                            <li  class="hide"><a href="#">Все для кормления</a></li>
+                            <li  class="hide"><a href="#">Одежда для детей</a></li>
+                            <li  class="hide"><a href="#">Гигиена и уход</a></li>
+                            <li  class="hide"><a href="#">Мебель для детей</a></li>
+                            <li  class="hide"><a href="#">Постельное белье, одеяла и наборы в кроватку</a></li>
+                            <li  class="hide"><a href="#">Детский Транспорт</a></li>
+                            <li  class="hide"><a href="#">Автокресла</a></li>
+                            <li  class="hide"><a href="#">Детская безопасность, защита</a></li>
+                            <li  class="hide"><a href="#">Фоторамки, Фотоальбомы, Слепки ручек и ножек</a></li>
+                            <li  class="hide"><a href="#">Товары для мам</a></li>
+                            <li  class="hide"><a href="#">Товары для дома</a></li>
+                            <li  class="hide"><a href="#">Сумки, рюкзаки, пеналы</a></li>
+                            <li  class="hide"><a href="#">Детские зонты</a></li>
+                        </ul>
+                    </div>
+                     <div class="side-block">
+                <div class="side-block-brands">
+                    <h4>Бренды</h4>
+                    <ul class="checkbox-list">
+                        <li>
+                            <input id="checkbox1" type="checkbox" name="first" />
+                            <label for="checkbox1">Ambi toys</label>
+                        </li>
+                        <li>
+                            <input id="checkbox2" type="checkbox" name="second" />
+                            <label for="checkbox2">B kids</label>
+                        </li>
+                        <li>
+                            <input id="checkbox3" type="checkbox" name="third" />
+                            <label for="checkbox3">Canpol</label>
+                        </li>
+                        <li>
+                            <input id="checkbox4" type="checkbox" name="fourth"/>
+                            <label for="checkbox4">Fisher Price</label>
+                        </li>
+                        <li>
+                            <input id="checkbox5" type="checkbox" name="fifth" />
+                            <label for="checkbox5">Hap-P-Kid</label>
+                        </li>
+                        <li>
+                            <input id="checkbox6" type="checkbox" name="sixth" />
+                            <label for="checkbox6">Keenway</label>
+                        </li>
+                        <li>
+                            <input id="checkbox7" type="checkbox" name="seventh" />
+                            <label for="checkbox7">LEGOlittle</label>
+                        </li>
+                        <li>
+                            <input id="checkbox8" type="checkbox" name="eighth" />
+                            <label for="checkbox8">K's Kids</label>
+                        </li>
+                        <li>
+                            <input id="checkbox9" type="checkbox" name="ninth" />
+                            <label for="checkbox9">Tikes Matell</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="side-block-price">
+                    <h4>Цена</h4>
+                    <div class="range-filter">
+                        <div class="price-controls">
+                            <input class="min-price" type="text" value="150"> -
+                            <input class="max-price" type="text" value="5000"> руб.
+                        </div>
+                        <div class="range-controls">
+                            <div class="scale"><div class="bar"></div></div>
+                            <div class="toggle min-toggle"></div>
+                            <div class="toggle max-toggle"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-block-material">
+                    <h4>Материал</h4>
+                    <ul class="checkbox-list">
+                        <li>
+                            <input id="checkbox10" type="checkbox" name="first" />
+                            <label for="checkbox10">Дерево</label>
+                        </li>
+                        <li>
+                            <input id="checkbox11" type="checkbox" name="second" />
+                            <label for="checkbox11">Пластик</label>
+                        </li>
+                        <li>
+                            <input id="checkbox12" type="checkbox" name="third" />
+                            <label for="checkbox12">Металл</label>
+                        </li>
+                        <li>
+                            <input id="checkbox13" type="checkbox" name="fourth"/>
+                            <label for="checkbox13">Плюшевая</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="side-block-age">
+                    <h4>Возраст</h4>
+                    <ul class="checkbox-list">
+                        <li>
+                            <input id="checkbox14" type="checkbox" name="first" />
+                            <label for="checkbox14">0-3 года</label>
+                        </li>
+                        <li>
+                            <input id="checkbox15" type="checkbox" name="second" />
+                            <label for="checkbox15">3-5 лет</label>
+                        </li>
+                        <li>
+                            <input id="checkbox16" type="checkbox" name="third" />
+                            <label for="checkbox16">5-7 лет</label>
+                        </li>
+                        <li>
+                            <input id="checkbox17" type="checkbox" name="fourth"/>
+                            <label for="checkbox17">7-14 лет</label>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#"><h4>ЕЩЕ ПАРАМЕТРЫ</h4></a>
+            </div>  
+            </aside>
+            <div id="content">
+                <div class="search">
+                    <input type="text" placeholder="Поиск по товарам" >
+                </div>
+                <h3 class="flatpage-header">Игрушки для ванной</h3>
+            <ul class="breadcrumbs bathroom">
+                <li><a href="#">Игрушки, игры</a></li>
+                <li>Игрушки для ванной</li>
+            </ul>
+            <div class="sort-view clear-fix">
+                <div class="sorting-panel">
+                    <p class="text">Сортировать по</p>
+                    <div id="drop-down">
+                        <ul>
+                            <li class="has-sub"><a href="#"><span>Рейтингу</span></a>
+                                <ul>
+                                    <li><a href="#"><span>Цене</span></a></li>
+                                    <li><a href="#"><span>Названию</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="view-panel">
+                    <p class="text">Вид каталога</p>
+                    <ul class="view-buttons">
+                        <li class="active"><a href="#"><img src="images/mosaic.png" alt="mosaic"></a></li>
+                        <li><a href="#"><img src="images/full-list.png" alt="full-list"></a></li>
+                        <li><a href="#"><img src="images/short-list.png" alt="short-list"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <section class="product-holder">
+                <ul class="product-list">
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-01.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_1">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-02.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_2">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-03.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_3">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-04.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_4">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-01.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_5">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-04.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_6">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-02.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_7">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-01.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_8">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-03.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_9">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-frame">
+                            <a href="#"><img src="images/img-product-01.png" alt="product"></a>
+                        </div>
+                        <p class="product-spec"><a href="#">Мини-робот собака Mini WrexWow Wee</a></p>
+                        <div class="price-holder clear-fix">
+                            <p class="product-price">535 руб.</p>
+                            <p class="product-old-price">751 руб.</p>
+                        </div>
+                        <div class="rate clear-fix">
+                            <div id="rating_10">
+                                <input type="hidden" name="vote-id" value="1"/>
+                            </div>
+                            <div class="quantity-rate"><p><span>14</span> отзывов</p></div>
+                        </div>
+                        <div class="in-basket clear-fix">
+                            <a class="add" href="wide_cart.html"><p>В корзину</p></a>
+                            <a class="in-compare" href="#"><p>В сравнение</p></a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <ul class="paging">
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">...</a></li>
+                <li><a id="NextLink" href="#">»</a></li>
+            </ul>
+            <div class="banner-down"></div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="fixed-panel">
+        <a href="#" class="feedback">Обратная связь</a>
+        <div class="panel-buy">
+            <div class="compare">
+                <p>Сравнить <span><a href="#">0</a></span></p>
+            </div>
+            <div class="panel-basket">
+                <a href="#" class="quantity">1</a>
+                <p class="price">94000 р.</p>
+                <a href="#" class="checkout">Оформить заказ</a>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="row-01">
+            <div class="about">
+                <h3>о магазине</h3>
+                <p>Покупая у нас, вы оберегаете вашего малыша от некачественного товара и дешевых подделок. Все наши товары сертифицированы и прошли контроль качества.</p>
+                <p>Интернет-магазин KINDER61.RU Это надежно, комфортно и очень выгодно.</p>
+            </div>
+            <div class="pay-info">
+                <h3>принимаем к оплате</h3>
+                <ul class="payment-list">
+                    <li class="visa">visa</li>
+                    <li class="visa-electron">visa-electron</li>
+                    <li class="mastercard">mastercard</li>
+                    <li class="maestro">maestro</li>
+                </ul>
+                <div class="clear-fix"></div>
+                <div class="vk-widget">
+                    <!-- VK Widget -->
+                    <iframe name="fXDe7af1" frameborder="0" src="https://vk.com/widget_community.php?app=0&amp;width=240px&amp;_ver=1&amp;gid=34210285&amp;mode=1&amp;color1=FFFFFF&amp;color2=2B587A&amp;color3=cccccc&amp;class_name=&amp;height=400&amp;url=https%3A%2F%2Fvk.com%2Fdev%2FCommunity%3Fheight%3D400%26link%3Dhttps%253A%252F%252Fvk.com%252Fkinder61%26mode%3D1%26oid%3D-34210285%26wide%3D%26width%3D240&amp;14d553a2b52" width="260" height="200" scrolling="no" id="vkwidget34" style="overflow: hidden; height: 150px;"></iframe>
+                </div>
+            </div>
+            <div class="info-menu">
+                <h3>Информация</h3>
+                <ul class="info-list">
+                    <li><a href="dostavka">Доставка</a></li>
+                    <li><a href="oplata">Оплата</a></li>
+                    <li><a href="kak_oformit_zakaz">Как оформить заказ</a></li>
+                    <li><a href="informatsiya">Информация</a></li>
+                    <li><a href="contact">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row-02">
+            <div class="copyright">
+                <p>© 2012 - 2014 Kinder61.ru - Интернет магазин детских товаров</p>
+                <p>Юридический адрес: г. Ростов-на-Дону, ул. 40 лет победы 63/10</p>
+            </div>
+            <div class="developers">
+                <p><a href="http://wizardstyle.ru/">Разработка сайта</a> — Интернет агентство «WizardStyle»</p>
+                <p><a href="#">Прием платежей</a> —  PAYSTO</p>
+            </div>
+            <div class="clear-fix"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
