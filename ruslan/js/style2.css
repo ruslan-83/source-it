@@ -1,0 +1,853 @@
+@charset "utf-8";
+/* CSS Document */
+
+#dash_map_left
+{
+	float:left;
+	width:55%;
+
+}
+#dash_map_right
+{
+	float:right;
+	width:40%;
+
+}
+
+#close_full_screen_map
+{
+	text-align:center;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	text-decoration:underline;
+	color:#0066CC;
+		-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-border-radius:4px;
+	
+	position:fixed;
+	top:45%;
+	left:45%;
+	margin:auto;
+	padding:10px;
+	z-index:999999;
+	
+	-webkit-box-shadow: 0px 0px 10px #000;
+	-moz-box-shadow:  0px 0px 10px #000;
+	box-shadow:  0px 0px 10px #000;
+}
+#luckyext__watcher_div a:link, #luckyext__watcher_div a:active, #luckyext__watcher_div a:visited
+{
+	color:#CCCCCC;
+}
+#luckyext__watcher_div a:hover
+{
+	color:#0066CC;
+}
+#luckyext__watcher_div a:link.luckyext__url, #luckyext__watcher_div a:visited.luckyext__url
+{
+	color:#0033CC;
+}
+#luckyext_request_chat_prompt
+{
+	font-size:13px;
+	line-height:120%;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+#luckyext__request_msg
+{
+	margin-bottom:20px;
+}
+#luckyext__poll_choices td
+{
+	font-size:12px;
+	line-height:130%;
+	text-shadow:none;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+#luckyext__powered_by_poll a, #luckyext__poll_back_off_btn a
+{
+	color:#fff;
+	text-decoration:underline;
+}
+#luckyext__watcher_poll_box input {
+width: auto;
+padding: 0px;
+margin: auto;
+float: none;
+border: none;
+height: auto;
+background:none;
+}
+
+#luckyext__watcher_poll_box textarea {
+    width:auto;
+    border:none;
+    margin:auto;
+    background:none;
+    height:auto;
+}
+
+#luckyext__chat_extra_msg
+{
+	height:47px;
+	overflow-y:auto;
+	font-size:12px;
+	line-height:130%;
+	text-shadow:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#luckyext__submit_btn_area
+{
+	margin-top:5px;
+	text-align:right;
+}
+#luckext__chat_branding
+{
+	text-align:center;
+	font-size:11px;
+	margin-top:10px;
+	text-shadow:none;
+	color:#CCCCCC;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+#luckyext__pre_chat_question1, #luckyext__pre_chat_question2, #luckyext__pre_chat_question3
+{
+	width:99%;
+	border:1px solid #ccc;
+	border:1px solid rgba(255,255,255,0.3);
+	padding:3px;
+	margin-top:5px;	
+}
+
+#luckext__chat_branding a
+{
+	color:#FF6600;
+	
+}
+#luckyext__chat_bottom_part
+{
+	display:none;
+}
+#luckyext__powered_by_poll
+{
+	clear:both;
+	text-align:right;
+	margin-top:20px;
+	font-size:9px;
+	color:#999999;
+}
+
+a.luckyext__ref
+{
+	color:#CCCCCC;
+}
+#luckyext_watch_close, #luckyext_watch_pop
+{
+
+	position:absolute;
+	left:0px;
+	top:0px;
+
+	width:32px;
+	height:32px;
+	margin-top:-16px;
+	margin-left:-16px;
+	cursor:pointer;
+	background-image:url(../icons/fancy_close.png);
+	background-repeat:no-repeat;
+	z-index:999999;
+}
+#luckyext_watch_pop
+{
+	background-image:url(../graphics/pop.png);
+	left:26px;
+}
+#luckyext__poll_help_title
+{
+	font-size:15px;
+	color:#00CCFF;
+	line-height:140%;
+	font-weight:bold;
+}
+#luckyext__watcher_poll_box, #luckyext__watcher_chat_request_box, #luckyext__watcher_click_to_chat
+{
+	position:fixed;
+	width:300px;
+	bottom:0px;
+	right:20px;
+	height:50px;
+	overflow:visible;
+	z-index:9998;
+	
+}
+#luckyext__watcher_poll_box
+{
+	z-index:9999;
+}
+#luckyext__watcher_chat_request_box
+{
+	z-index:9999;
+}
+.luckyext__clear
+{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+#luckyext__request_question_box
+{
+	clear:both;
+	margin-bottom:15px;
+}
+#luckyext__chat_question
+{
+	float:left;
+	width:70%;
+	padding-top:5px;
+}
+#luckyext__chat_request_photo img
+{
+	padding:2px;
+	background-color:#FFFFFF;
+	
+	-webkit-box-shadow: 2px 2px 5px #000;
+	-moz-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;	
+}
+#luckyext__chat_request_photo
+{
+	float:left;
+	
+	width:30%;
+}
+#luckyext__watcher_poll_box_inside #luckyext__poll_question,#luckyext__watcher_chat_box_inside #luckyext__chat_question, #luckyext__watcher_poll_box_inside #luckyext__poll_thanks
+{
+	
+	font-size:13px;
+	font-weight:bold;
+	color:#fff;
+	
+	width:96%;
+
+	line-height:135%;
+	margin-bottom:15px;
+}
+ #luckyext__watcher_poll_box_inside #luckyext__poll_thanks
+ {
+    font-weight:normal;
+ }
+.luckyext__poll_choice:hover, .luckyext__chat_choice:hover
+{
+
+	background-color:#333;
+	color:#fff;
+}
+.luckyext_min_sign
+{
+	width:10px;
+	height:3px;
+	
+	background-color:#FFFFFF;
+}
+.luckyext_close_sign
+{
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	line-height:100%;
+}
+#luckyext__poll_close,#luckyext__chat_close, #luckyext__chat_min
+{
+	position:absolute;
+	right:28px;
+	top:10px;
+
+
+	padding:6px;
+	text-align:center;
+	
+
+	line-height:100%;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-border-radius:4px;		
+	
+	cursor:pointer;
+	/*background-image:url(../icons/fancy_close.png);
+	background-repeat:no-repeat;*/
+	z-index:999999;
+}
+#luckyext__poll_close
+{
+	right:10px;
+	
+}
+#luckyext__chat_close
+{
+	
+	right:10px;
+	padding:4px;
+	top:4px;
+}
+
+#luckyext__chat_paging
+{
+	display:none;
+	font-size:12px;
+	text-shadow:none;
+	margin:15px;
+	text-align:center;
+}
+#luckyext__chat_min
+{
+/*	background-image:url(../icons/fancy_min.png);*/
+}
+
+.luckyext__chat_choice
+{
+	border: 1px solid #333333;
+	cursor:pointer;
+	background-color:#282828;
+	
+	padding:6px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;	
+	text-align:left;		
+	
+
+	background-repeat:no-repeat;
+	background-position:5px 4px;
+	line-height:100%;
+	margin-bottom:5px;
+	
+	color:#999999;
+	font-size:11px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.luckyext__chat_choice table, .luckyext__chat_choice table tbody tr td, .luckyext__chat_choice table td
+{
+    border:none;
+	padding:0px;
+	margin:0px;
+}
+
+
+#luckyext__poll_comments
+{
+	font-size:10px;
+	color:#666666;
+
+}	
+#luckyext__poll_comments em
+{
+font-style:normal;
+color:#fff;
+}
+#luckyext__poll_back_off_btn
+{
+	float:left;
+	text-align:left;
+	padding-top:13px;
+	
+	font-size:10px;
+}
+#luckyext__poll_submit_btn:hover
+{
+}
+#luckyext__poll_submit_btn
+{
+	border:1px solid #666666;
+	padding:5px;
+	width:30%;
+	float:right;
+	cursor:pointer;
+	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;	
+	text-align:center;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:10px;
+	
+	background: -webkit-linear-gradient(
+        top,
+        rgba(255,255,255,0.2),
+       rgba(255,255,255,0)
+    );
+	
+	background: -moz-linear-gradient(
+        top,
+        rgba(255,255,255,0.2),
+       rgba(255,255,255,0)
+    );
+	
+	background: -linear-gradient(
+        top,
+        rgba(255,255,255,0.2),
+       rgba(255,255,255,0)
+    );
+
+	
+	/*background-image:url(../graphics/blue_back.jpg);
+	background-repeat:repeat-x;*/
+}
+#luckyext__poll_intro
+{
+	margin-bottom:2px;
+	font-size:10px;
+	color:#CCCCCC;
+}
+#luckyext__watcher_poll_box_inside #luckyext__poll_text_area_comments
+{
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:100%;
+	background-color:#282828;
+	color:#FFFFFF;
+	border:1px solid #313131;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	resize: none;
+	
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	text-shadow: none;
+
+	height:40px;
+	
+		
+}
+
+#luckyext__poll_text_area_comments textarea
+{
+	padding:0px;
+	margin:0px;
+}
+
+#luckyext__chat_box form
+{
+	margin:0px;
+	padding:0px;
+}
+
+#luckyext__watcher_poll_box_inside, #luckyext__watcher_chat_box_inside, #luckyext__watcher_click_to_chat_inside
+{
+	z-index:9998;
+	z-index:2147483638;
+	/*background-image:url(../graphics/black_back.jpg);*/
+	background-repeat:repeat-x;
+	border: 2px solid #fff;
+	border-color: #fff;
+	
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;		
+	position:absolute;
+	bottom:-500px;
+	margin:15px;
+	
+	width:220px;
+	height:90%;
+	-webkit-box-shadow: 0px 0px 4px 0px #000000;
+	-moz-box-shadow: 0px 0px 4px 0px #000000;
+	box-shadow: 0px 0px 4px 0px #000000;	
+		
+	background-color:#212121;
+	padding:20px;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:130%;
+	text-align:left;
+	top:auto;
+	left:auto;
+}
+#luckyext__watcher_poll_box_inside div, #luckyext__watcher_chat_box_inside div, #luckyext__watcher_click_to_chat_inside div
+{
+	
+	left:auto;
+}
+#luckyext__watcher_poll_box_inside
+{
+	z-index:9999;
+	z-index:2147483639;
+}
+#luckyext__watcher_iframe_poll_fix
+{
+	z-index:9998;
+	width:300px;
+	bottom:0px;
+	right:20px;
+	height:375px;
+	overflow:hidden;
+	position:fixed;
+	background-image: url(../graphics/trans.gif);
+	
+	
+}
+#luckyext__watcher_click_to_chat
+{
+
+}
+/*#luckyext__watcher_click_to_chat_inside
+{
+	cursor:pointer;
+	background-image:url(../graphics/quote_white.gif);
+	background-repeat:no-repeat;
+	background-position:10px 10px;
+}*/
+#luckyext__watcher_blink_green img
+{
+	border:none;
+}
+#luckyext__watcher_blink_green
+{
+	padding-left:5px;	
+}
+#luckyext__click_to_chat_btn strong
+{
+	color:#FFFFFF;
+	background:none;
+}
+#luckyext__click_to_chat_btn
+{
+	color:#999999;
+	margin-top:-10px;
+	font-size:12px;
+	
+	line-height:120%;
+	text-align:left;
+	cursor:pointer;
+	
+	
+}
+#luckyext__table_cloth, #wtw_table_cloth
+{
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	z-index:999999;
+    z-index:2147483638;
+
+	/*background-image:url(../graphics/table_cloth.png);
+	background-repeat:repeat;
+	*/
+	background-color:#202020;
+}
+.luckyext__faded
+{
+
+
+    filter: alpha(opacity=30); /* for IE */
+    -khtml-opacity: 0.3;      /* khtml, old safari */
+    -moz-opacity: 0.3;       /* old mozilla, netscape */
+    opacity: 0.3;           /* good browsers: FF, safari, opera */
+}
+#luckyext__watcher_div
+{
+word-wrap: break-word;
+position:fixed;
+overflow:visible;
+top:5%;
+left:5%;
+margin:auto;
+background-color:#202020;
+color:#000000;
+padding:0px;
+height:90%;
+width:90%;
+
+
+ /*-webkit-box-shadow: 0px 0px 30px 1px #000;*/
+/*-moz-box-shadow: 0px 0px 30px 1px #000;
+ -webkit-box-shadow: 0px 0px 30px 1px #000;
+ box-shadow: 0px 0px 30px 1px #000;*/
+ z-index:99999;
+	
+	
+}	
+.luckyext__watcher_uo
+{
+	clear:both;
+	padding:5px;
+	border-bottom:1px solid #EAEAEA;
+}
+#luckyext__online_count 
+{
+	clear:both;
+	padding:5px;
+	border-bottom:1px solid #333333;
+	text-align:center;
+}
+
+#luckyext__online_count #counter_label
+{
+	
+	
+}
+#luckyext__online_count #counter
+{
+	
+	padding-left:5px;	
+}
+
+/**********************************
+			Chat Stuff
+***********************************/
+#luckyext__sound_toggle
+{
+	float:right;
+	padding-bottom:5px;
+
+}
+#luckyext__sound_mute
+{
+	cursor:pointer;
+}
+#luckyext__sound_unmuted
+{
+	cursor:pointer;
+}
+
+#luckyext__chat_status
+{
+	color:#999999;
+	line-height:120%;
+	font-size:11px;
+	font-style:italic;
+
+	
+	text-align:left;
+	float:left;
+}
+.luckyext__from_me
+{
+	color:#006600;
+	font-weight:bold;
+}
+.luckyext__from
+{
+	color:#luckyext__000;
+	font-weight:bold;
+}
+#luckyext__btnSend
+{
+
+}
+#luckyext__chat_left
+{
+	height:100%;
+
+	width:100%;
+	margin-right:3px;
+	
+	
+}
+#luckyext__chat_log
+{
+	
+	overflow:auto;
+	height:125px;
+	word-wrap:break-word;
+
+		
+}
+
+
+/*
+#luckyext__chat_log::-webkit-scrollbar { width:5px; height:5px;  }
+#luckyext__chat_log::-webkit-scrollbar-track { margin:6px 0; }
+#luckyext__chat_log::-webkit-scrollbar-thumb { background:#333; border:solid #dd; cursor:move; }
+#luckyext__chat_log::-webkit-scrollbar-thumb:hover {  background:#777; }
+*/
+
+#luckyext__chat_log::-webkit-scrollbar { width:5px; height:5px;  -webkit-border-radius: 1ex;   }
+#luckyext__chat_log::-webkit-scrollbar-track { margin:6px 0; }
+#luckyext__chat_log::-webkit-scrollbar-thumb { 
+
+    background: rgba(255, 255, 255,0.2);  
+       -webkit-border-radius: 1ex;  
+      
+ }
+#luckyext__chat_log::-webkit-scrollbar-thumb:hover {  background: rgba(255, 255, 255,0.7) }
+
+.luckyext__chat_photo img
+{
+	
+	
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	-moz-border-radius:3px;		
+	
+	-webkit-box-shadow: 0px 0px 3px #000000;
+	-moz-box-shadow: 0px 0px 3px #000000;
+	box-shadow: 0px 0px 3px #000000;	
+	margin-right:10px;
+	border: 2px solid white;
+	
+}
+.luckyext__chat_photo
+{
+	
+		
+	
+	
+	text-shadow:none;
+	
+		
+}
+#luckyext__chat_photo_fancy
+{
+
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+		
+	
+	-webkit-box-shadow: 0px 0px 4px 0px #000000;
+	-moz-box-shadow: 0px 0px 4px 0px #000000;
+	box-shadow: 0px 0px 4px 0px #000000;	
+	
+	border-left: 2px solid white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 63px;
+	padding: 5px;
+	
+	position: absolute;
+	top: 10px;
+	left: -75px;
+	background-color: black;
+	font-size: 9px;
+	line-height: 110%;
+
+	text-shadow:none;
+	text-align:center;
+}
+#luckyext__chat_photo_left
+{
+	left:auto;
+	right:-75px;
+	top:20px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	
+	
+	border-left: none;
+	border-right: 2px solid white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+#luckyext__chat_box
+{
+	
+	
+}
+#luckyext__chat_right strong
+{
+	font-size:17px;
+}
+#luckyext__chat_right
+{
+text-align:center;
+	background-color:#eaeaea;
+	float:right;
+	width:23%;
+	height:95%;
+	padding:5px;
+	font-size:11px;
+}
+#luckyext__chat_wrapper
+{
+	
+	width:100%;
+}
+#luckyext__chat_branding
+{
+	float:right;
+	text-align:right;
+	font-size:10px;
+	color:#999999;
+}
+
+.luckyext__clear
+{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+#luckyext__chat_top
+{
+	
+	margin-bottom:5px;
+	clear:both;
+}
+#luckyext__my_msg
+{
+	resize:none;
+	width:99%;
+	max-height:65px;
+	border:1px solid #666666;
+}
+
+#luckyext_chat_agent_info
+{
+	height:46px;
+	margin-top:-5px;
+	
+}
+#luckyext__chat_bottom
+{
+
+	clear:both;
+}
+.luckyext__msg
+{
+	font-size:12px;
+	padding:1px;
+}
+.luckyext__msg strong
+{
+	font-size:12px;
+}
+.luckyext__msg.luckyext__system
+{
+font-style:italic;
+color:#990000;
+}
+.luckyext__msg.luckyext__me
+{
+
+color:#006600;
+}
+
