@@ -1,0 +1,49 @@
+/* reset css */
+body {
+    margin: 0;
+    font: 14px/1.3  Arial, Helvetica, sans-serif;
+    color: #3c464b;
+    background: #fff;
+}
+img {border-style:none;}
+a {
+    text-decoration:none;
+}
+a:hover {text-decoration:underline;}
+input, textarea, select {
+    font: 14px/1.3 Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    color: #5d5d5d;
+    padding: 0;
+    margin: 0;
+}
+form fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+*:focus {outline: none;}
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p {margin: 0;}
+table {
+    border-collapse: collapse;
+    border: none;
+}
+td, th {padding: 0;}
+.left {float: left;}
+.right {float: right;}
+/* clearfix */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {display: block;}
+/* wrapper */
